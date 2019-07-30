@@ -1,11 +1,11 @@
-// import axios from "axios";
-//
-// function getPW(s: string) {
-//     return s;
-// }
-//
-// axios.get("foo", {
-//     params: {
-//         password: getPW("1")
-//     }
-// });
+"use strict";
+exports.__esModule = true;
+var axios_1 = require("axios");
+function getPW(s) {
+    return s;
+}
+axios_1["default"].get("foo", {
+    params: {
+        password: getPW("1")
+    }
+});

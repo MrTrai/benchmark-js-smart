@@ -1,5 +1,6 @@
-// import axios from "axios";
-//
-// axios.get("Foo").then(result => {
-//     throw new Error("This error is in callback!")
-// });
+"use strict";
+exports.__esModule = true;
+var axios_1 = require("axios");
+axios_1["default"].get("Foo").then(function (result) {
+    throw new Error("This error is in callback!");
+});

@@ -1,14 +1,15 @@
-// import axios from "axios";
-//
-// axios.get("Foo").then(function (result) {
-//     axios.get("Bar").then(function (result) {
-//         axios.get("Callback").then(function (result) {
-//             axios.get("Hell").then(function (result) {
-//                 axios.get("url").then(function (result) {
-//                     axios.get("lastone").then(function (result) {
-//                     });
-//                 });
-//             });
-//         });
-//     });
-// });
+"use strict";
+exports.__esModule = true;
+var axios_1 = require("axios");
+axios_1["default"].get("Foo").then(function (result) {
+    axios_1["default"].get("Bar").then(function (result) {
+        axios_1["default"].get("Callback").then(function (result) {
+            axios_1["default"].get("Hell").then(function (result) {
+                axios_1["default"].get("url").then(function (result) {
+                    axios_1["default"].get("lastone").then(function (result) {
+                    });
+                });
+            });
+        });
+    });
+});

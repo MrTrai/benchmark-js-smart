@@ -1,7 +1,8 @@
-// import axios from "axios";
-//
-// axios.get("foo", {
-//     params: {
-//         password: "1"
-//     }
-// });
+"use strict";
+exports.__esModule = true;
+var axios_1 = require("axios");
+axios_1["default"].get("foo", {
+    params: {
+        password: "1"
+    }
+});
