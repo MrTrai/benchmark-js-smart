@@ -1,7 +1,7 @@
-import axios from "axios";
-
-axios.get("foo", {
-    params: {
-        password: "1"
-    }
-});
+// import axios from "axios";
+//
+// axios.get("foo", {
+//     params: {
+//         password: "1"
+//     }
+// });
